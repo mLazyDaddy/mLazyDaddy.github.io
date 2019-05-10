@@ -1,15 +1,10 @@
+---
+layout: post
+title:  "objc invokes function"
+date:   2019-04-30 12:00:00
+categories: iOS
+---
 
----
-layout:     post
-title:      "objc invokes function"
-subtitle:   " 调用方法"
-date:       2019-04-30 12:00:00
-author:     "mLazyDaddy"
-catalog: runtime
-tags:
-    - iOS
-    - Meta
----
 
 #Objective-C方法调用
 
