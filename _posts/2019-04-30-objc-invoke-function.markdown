@@ -21,7 +21,7 @@ NSObject *obj = [NSObject new];
 NSObject *obj = ((NSObject *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("NSObject"), sel_registerName("new"));
 ```
 
-##objc_msgSend
+## objc_msgSend
 给对象发送消息并获取返回值。
 
 [声明](https://developer.apple.com/documentation/objectivec/1456712-objc_msgsend)
@@ -30,7 +30,7 @@ NSObject *obj = ((NSObject *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass
 id objc_msgSend(id self, SEL op, ...);
 ```
 
-###参数
+### 参数
 * `self`：接收消息的对象；
 * `op`：处理消息的方法选择器（类型为SEL，下面有解释）
 
