@@ -1,11 +1,8 @@
 ---
 layout: post
-title:  "objc invokes function"
+title:  "Objective-C方法调用"
 date:   2019-04-30 12:00:00
-categories: iOS
 ---
-
-
 #Objective-C方法调用
 
 （以下分析基于objc4-723）
