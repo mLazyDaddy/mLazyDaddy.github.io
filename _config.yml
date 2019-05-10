@@ -21,7 +21,7 @@ url: "https://mlazydaddy.github.io/" # the base hostname & protocol for your sit
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
