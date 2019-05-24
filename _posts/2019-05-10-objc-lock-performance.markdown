@@ -7,7 +7,7 @@ date:   2019-05-10 12:00:00
 （本文主要讨论`@synchronized`）
 
 YYKit作者曾在[不再安全的 OSSpinLock](https://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/)
-中在单线程情况下对各种锁进行了简单的性能测试，结果`@synchronized`排名垫底。于是我好奇为什么苹果要设计出性能这么差的锁。根据YKit作者的测试代码我做了一个多线程的测试，代码在[这里]()，测试环境是
+中在单线程情况下对各种锁进行了简单的性能测试，结果`@synchronized`排名垫底。于是我好奇为什么苹果要设计出性能这么差的锁。根据YKit作者的测试代码我做了一个多线程的测试，代码在[这里](https://github.com/mLazyDaddy/LockTest/tree/master/LockTest)，测试环境是
 
 |        |  |
 | ---------- | --- |
