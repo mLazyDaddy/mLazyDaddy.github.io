@@ -89,7 +89,7 @@ YYKit作者曾在[不再安全的 OSSpinLock](https://blog.ibireme.com/2016/01/1
 
 
 <del>我们这里主要关注统一运行环境下锁之间的耗时差距。可以看出iPhone真机或者模拟器中多线程里`@synchronized`的性能仅次于`os_unfair_lock`，这样看来属性合成器在使用atomic修饰的情况下使用`@synchronized`来实现原子操作就显得比较合理了。但Mac中`@synchronized`的性能又很差，这让我十分不解。</del> 
-（这里对于`atomic`的描述是错误的，应该使用的是`unfair_lock`）
+（这里对于`atomic`的描述是错误的，应该使用的是`os_unfair_lock `）
 
 我们这里主要关注统一运行环境下锁之间的耗时差距。可以看出iPhone真机或者模拟器中多线程里`@synchronized`的性能仅次于`os_unfair_lock`。但Mac中`@synchronized`的性能又很差，这让我十分不解。
 
